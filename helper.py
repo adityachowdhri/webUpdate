@@ -65,9 +65,6 @@ def updateLists():
     websiteList[:] = readWebsites()
     websitesHash(websiteList)
 
-
-
-sendEmail("Hello", "kavitastarot@gmail.com", "hdkr mdjl bttz jcml", ["adityachowdhri123@gmail.com"])
-
-websiteList = readWebsites()
-websitesHash(websiteList)
+# websiteList = readWebsites()
+# websitesHash(websiteList)
+# print(websiteList, hashedArray)
